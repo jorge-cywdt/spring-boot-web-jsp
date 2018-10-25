@@ -1,5 +1,5 @@
-<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%> <!-- Etiquetas taglib para JSTL -->
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>    
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@taglib uri="http://www.springframework.org/tags" prefix="spring"%> <!-- Etiqueta taglib para Spring -->
 
 <!DOCTYPE html">
 <html lang="en">
@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Spring Boot</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"> <!-- CDN de Bootstrap -->    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
 </head>
 <body>	
 	<div class="container">
